@@ -1,0 +1,109 @@
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("tru.jpg");
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form container */
+form {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    box-sizing: border-box;
+}
+
+/* Form labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: black;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* Buttons */
+button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 10px; 
+}
+
+button:hover {
+    background-color: orangered;
+}
+
+/* Links */
+a {
+    display: block;
+    margin-top: 10px;
+    color: blue;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Alert messages */
+p {
+    color: red; 
+    font-size: 12px;
+    margin: 0; 
+}
+
+/* Container for the password input and eye icon */
+.password-container {
+    position: relative;
+    width: 100%;
+}
+
+.password-container input {
+    width: 100%;
+    padding-right: 40px; 
+}
+
+.password-container i {
+    position: absolute;
+    right: 10px;
+    top: 37%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: grey;
+}
+
+/* Icon hover effect */
+.password-container i:hover {
+    color: grey;
+}
+
+
